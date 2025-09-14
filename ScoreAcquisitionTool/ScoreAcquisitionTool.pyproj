@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{076db9b9-3354-4931-952c-45978e25f657}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>prepare.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <Name>ScoreAcquisitionTool</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="captcha.jpg" />
+    <Content Include="GradeScrapingTool.pyproj" />
+    <Content Include="log.txt" />
+    <Content Include="no.csv" />
+    <Content Include="prepare.spec" />
+    <Content Include="scores.csv" />
+    <Content Include="students.csv" />
+    <Content Include="资料\1.pdf" />
+    <Content Include="资料\10.pdf" />
+    <Content Include="资料\11.pdf" />
+    <Content Include="资料\2.pdf" />
+    <Content Include="资料\3.pdf" />
+    <Content Include="资料\4.pdf" />
+    <Content Include="资料\5.pdf" />
+    <Content Include="资料\6.pdf" />
+    <Content Include="资料\7.pdf" />
+    <Content Include="资料\8.pdf" />
+    <Content Include="资料\9.pdf" />
+    <Content Include="资料\参考\kimi\GUI 窗口未显示成绩问题解析.docx" />
+    <Content Include="资料\参考\kimi\print语句未执行原因.docx" />
+    <Content Include="资料\参考\kimi\Python 脚本获取成绩并写入 CSV.docx" />
+    <Content Include="资料\参考\kimi\Python 调试配置 JSON 文件解析.docx" />
+    <Content Include="资料\参考\kimi\Python脚本自动识别验证码.docx" />
+    <Content Include="资料\参考\kimi\提取湛江市招生考试网请求链接、验证码图片及动态请求头.docx" />
+    <Content Include="资料\参考\kimi\提取特定格式学号姓名.docx" />
+    <Content Include="资料\参考\kimi\正则表达式提取特定URL.docx" />
+    <Content Include="资料\参考\kimi\程序获取网页信息超时的原因分析.docx" />
+    <Content Include="资料\参考\kimi\解决程序验证码错误问题.docx" />
+    <Content Include="资料\参考\kimi\解决网页验证码错误问题.docx" />
+    <Content Include="资料\参考\kimi\解决验证码刷新问题：使用Session和一次性验证码获取.docx" />
+    <Content Include="资料\指标生.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="performance_monitoring.py" />
+    <Compile Include="prepare.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="资料" />
+    <Folder Include="资料\参考\" />
+    <Folder Include="资料\参考\kimi" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

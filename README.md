@@ -1,6 +1,6 @@
 # 中考成绩抓取助手
 
-简体中文 | [English](README_EN.md)
+简体中文
 
 ## 功能简介
 一键批量抓取中考成绩，支持：
@@ -21,4 +21,5 @@
 1. 准备好 `students.csv` 并放到本目录
 2. 安装依赖
    ```bash
+
    pip install -r requirements.txt
